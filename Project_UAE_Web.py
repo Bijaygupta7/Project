@@ -5,7 +5,7 @@ import pandas as pd
 from datetime import date
 
 # loading the saved model
-loaded_model = pickle.load(open('C:/Users/BIJAY KUMAR GUPTA/Project_UAE.sav', 'rb'))
+loaded_model = pickle.load(open('Project_UAE.sav', 'rb'))
 
 # Function for Prediction
 def Rent_prediction(input_data):
